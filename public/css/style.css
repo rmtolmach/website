@@ -1,0 +1,138 @@
+section{
+  width: 960px;
+  margin: auto;
+}
+/* below are styles for header */
+body {
+  background-color: #edcb32;
+  margin: 0;
+}
+
+.head-foot {
+  background-color: #ef4229;
+  padding: 5px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace, sans-serif;
+}
+
+#navigation li {
+  display: inline;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  font-family: helvetica, sans-serif;
+}
+
+a:hover {
+  color: #edcb32;
+}
+
+/* below are styles for main body */
+#welcome {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: helvetica, sans-serif;
+}
+
+.kitchen {
+  display: block;
+  margin: auto;
+}
+
+.tag-line {
+  font-size: 1.2em;
+  font-family: helvetica, sans-serif;
+  width: 750px;
+  margin: 30px auto;
+}
+
+.project-nav:hover {
+  color: #ef4229;
+}
+
+/* below are styles for main body of projects */
+.ingredients {
+  width: 450px;
+  margin: 40px;
+}
+
+.recipe {
+  font-family: helvetica, sans-serif;
+  margin-bottom: 20px;
+
+}
+.margarita {
+  padding-top: 30px;
+}
+
+.food-pics {
+  padding: 30px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* below are styles for main body of about */
+.chris-rock {
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+}
+
+.guns {
+  font-family: helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    font-size: 1.4em;
+    font-family: helvetica, sans-serif;
+
+}
+
+td {
+  padding: 7px;
+}
+
+/* below are styles for main body of blog */
+.blog-post {
+  font-family: helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+/* below are styles for footer */
+.social-link {
+  font-size: 1em;
+}
+
+.social-footer {
+  font-family: helvetica, sans-serif;
+  font-size: 1.1em;
+}

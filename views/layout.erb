@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Food Time</title>
+    <meta charset = "utf-8">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section>
+      <header class="head-foot">
+        <h3>This is where hungry people hang out.</h3>
+        <ul id="navigation">
+          <li><a href="/">Homepage</a></li>
+          <li><a href ="projects">Projects</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+        </ul>
+      </header>
+
+      <%= yield %>
+
+      <footer class="head-foot">
+        <h3>Food: The only reason to get up in the morning</h3>
+        <p class="social-footer">Follow me on <a class="social-link" href="https://twitter.com/BeccaTmac">Twitter,</a>
+           or stalk me on <a class="social-link" href="https://instagram.com/b2ecca2/">Instagram</a></p>
+        <h6 class="copyright">copyright <%= @t.year %></h6>
+      </footer>
+    </section>
+  </body>
+
+</html>
